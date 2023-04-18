@@ -1,6 +1,6 @@
 const { Title } = require("@/components/ui/ui")
 import Image from "next/image"
-import { naturalJute, naturalRafia, arrow } from "@/components/images/icons/Icons.js"
+import { naturalJute, naturalRafia } from "@/images/Icons/Icons"
 import {LinkMore} from "./LinkMore"
 
 const Natural = () => {

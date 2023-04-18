@@ -1,6 +1,6 @@
 const { Title } = require("@/components/ui/ui")
 import Image from "next/image"
-import { soulJute, soulRafia, soulHandmade } from "@/components/images/icons/Icons.js"
+import { soulJute, soulRafia, soulHandmade } from "@/images/Icons/Icons"
 
 const Soul = () => {
     return (

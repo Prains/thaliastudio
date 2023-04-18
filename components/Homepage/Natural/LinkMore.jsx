@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { arrow, pointLine } from "@/components/images/icons/Icons.js"
+import { arrow, pointLine } from "@/images/Icons/Icons"
 
 const LinkMore = () => {
     return (

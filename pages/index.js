@@ -1,7 +1,7 @@
 import Anchor from "@/components/Anchor/Anchor";
 import Button from "@/components/Button/Button";
 import Paragraph from "@/components/Paragraph/Paragraph";
-import Title from "@/components/Title/Title";
+import Title from "@/components/ui/Title/Title";
 
 export default function Home() {
   return (

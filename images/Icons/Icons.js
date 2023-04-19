@@ -7,9 +7,7 @@ import telegram from "./image_telegram.svg";
 import vk from "./image_vk.svg";
 import instagram from "./image_instagram.svg";
 import whatsapp from "./image_whatsapp.svg";
-
 import arrow from "./arrow.svg";
-import pointLine from "./natural_point-line.svg";
 
 export {
   basket,
@@ -22,5 +20,4 @@ export {
   instagram,
   whatsapp,
   arrow,
-  pointLine,
 };

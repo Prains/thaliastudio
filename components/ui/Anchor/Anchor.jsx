@@ -14,7 +14,7 @@ const NotALink = ({ children, className, onClick }) => {
   );
 };
 
-const Anchor = ({ children, href, className, link, onClick }) => {
+const Anchor = ({ children, href, className, link = true, onClick }) => {
   if (link) {
     return (
       <Link

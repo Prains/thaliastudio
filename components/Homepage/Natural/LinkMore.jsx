@@ -4,7 +4,7 @@ import { arrow, pointLine } from "@/images/Icons/Icons"
 const LinkMore = () => {
     return (
         <div className="grid grid-row-2 justify-items-center text-center">
-            <a href="/" className="flex align-center justify-center mb-[5px] hover:underline active:text-[#58FF92]">
+            <a href="/" className="flex align-center justify-center mb-[5px] hover:underline active:text-[#4fa86e]">
                 <p className="cursor-pointer font-text text-[14px] mr-[14px]">Узнать больше</p>
                 <Image className="w-[16px]" src={arrow} alt="Стрелочка"/>
             </a>

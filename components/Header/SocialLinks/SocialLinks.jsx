@@ -19,6 +19,7 @@ const SocialLinks = ({ burgerShown, setBurgerShown }) => {
           onClick={() => {
             setBurgerShown(true);
           }}
+          className="md:hidden"
         />
       </nav>
       {burgerShown && <Burger setBurgerShown={setBurgerShown} />}

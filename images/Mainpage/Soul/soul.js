@@ -1,5 +1,5 @@
-import jute from "./natural_jute.png";
-import rafia from "./natural_rafia.png";
-import handmade from "./soul_handmade.png";
+import soulJute from "./soul_jute.png";
+import soulRafia from "./soul_raffia.png";
+import soulHandmade from "./soul_handmade.png";
 
-export { jute, rafia, handmade };
+export { soulJute, soulRafia, soulHandmade };

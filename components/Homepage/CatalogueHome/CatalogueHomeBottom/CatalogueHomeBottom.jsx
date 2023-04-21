@@ -9,7 +9,7 @@ export default function CatalogueHomeBottom({ products }) {
         <article className="flex flex-col items-center w-[40%] max-w-[240px] md:max-w-[170px]">
           <Image
             src={products[0].img}
-            alt="img"
+            alt={products[0].name}
             className="mb-[10px] w-[100%]"
           />
           <div>
@@ -24,7 +24,7 @@ export default function CatalogueHomeBottom({ products }) {
         <article className="absolute top-[20%] right-0 flex flex-col items-center w-[40%] max-w-[240px] md:top-[-20%] md:max-w-[170px]">
           <Image
             src={products[1].img}
-            alt="img"
+            alt={products[1].name}
             className="mb-[10px] w-[100%]"
           />
           <div>

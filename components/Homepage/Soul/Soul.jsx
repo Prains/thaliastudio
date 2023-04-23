@@ -3,7 +3,7 @@ import Image from "next/image";
 import { soulJute, soulRafia, soulHandmade, soulRopeRight } from "@/images/Mainpage/Soul/soul";
 const Soul = () => {
   return (
-    <section className="w-[87%] text-center mb-20 lg:w-[69%] lg:mb-[150px]">
+    <section className="relative w-[87%] text-center mb-[80px] lg:w-[69%] lg:mb-[150px]">
       <Title className="text-[32px] mb-10 lg:mx-auto lg:mb-[70px] lg:text-[70px]">
         Для души и красоты
       </Title>

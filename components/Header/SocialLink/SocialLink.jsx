@@ -4,7 +4,7 @@ const SocialLink = ({ children, href, className }) => {
   return (
     <Link
       className={
-        `flex items-center justify-center font-text text-sm hover:opacity-50 w-[30px]` +
+        `flex items-center justify-center font-text text-sm hover:opacity-50` +
         ` ${className}`
       }
       href={href}

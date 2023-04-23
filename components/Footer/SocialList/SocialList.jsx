@@ -5,16 +5,16 @@ import SocialLink from "../../Header/SocialLink/SocialLink";
 const SocialList = () => {
   return (
     <nav className="flex items-center justify-center gap-5">
-      <SocialLink href={"/"}>
+      <SocialLink href={"/"} className='w-[30px]'>
         <Image src={telegram} alt="иконка социальной сети телеграмм" />
       </SocialLink>
-      <SocialLink href={"/"}>
+      <SocialLink href={"/"} className='w-[30px]'>
         <Image src={vk} alt="иконка социальной сети вконтакте" />
       </SocialLink>
-      <SocialLink href={"/"}>
+      <SocialLink href={"/"} className='w-[30px]'>
         <Image src={instagram} alt="иконка социальной сети инстаграмм" />
       </SocialLink>
-      <SocialLink href={"/"}>
+      <SocialLink href={"/"} className='w-[30px]'>
         <Image src={whatsapp} alt="иконка социальной сети ватсапп" />
       </SocialLink>
     </nav>

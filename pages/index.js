@@ -1,8 +1,8 @@
-import CareOfThings from "@/components/Homepage/CareOfThings/CareOfThings";
-import CatalogueHome from "@/components/Homepage/CatalogueHome/CatalogueHome";
 import Main from "@/components/Homepage/Main/Main";
-import { Natural } from "@/components/Homepage/Natural/Natural";
-import { Soul } from "@/components/Homepage/Soul/Soul";
+import Soul from "@/components/Homepage/Soul/Soul";
+import CatalogueHome from "@/components/Homepage/CatalogueHome/CatalogueHome";
+import Natural from "@/components/Homepage/Natural/Natural";
+import CareOfThings from "@/components/Homepage/CareOfThings/CareOfThings";
 
 export default function Home() {
   return (

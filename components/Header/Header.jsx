@@ -6,7 +6,7 @@ import { useState } from "react";
 const Header = () => {
   const [burgerShown, isBurgerShown] = useState(false);
   return (
-    <header className="flex items-start justify-between w-[87%]">
+    <header className="flex items-start justify-between w-[87%] self-start my-0 mx-auto">
       <HeaderLogos />
       <LinkMenu />
       <SocialLinks setBurgerShown={isBurgerShown} burgerShown={burgerShown} />

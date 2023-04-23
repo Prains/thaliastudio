@@ -3,7 +3,7 @@ import FooterLink from "./FooterLink/FooterLink";
 
 const FooterList = () => {
   return (
-    <nav className="flex items-start justify-between w-full">
+    <nav className="flex items-start justify-between w-full lg:my-[30px] lg:justify-center lg:gap-11">
       <ul className="flex items-start justify-center gap-[10px] flex-col w-1/2">
         <FooterTitle>Каталог</FooterTitle>
         <FooterLink>Сумки и аксессуары</FooterLink>

@@ -1,9 +1,10 @@
-import { Paragraph, Title, Anchor } from "@/components/ui/ui";
+import { Title } from "@/components/ui/ui";
 import Image from "next/image";
-import { arrow, jute, rafia } from "@/images/Mainpage/Natural/natural";
+import { jute, rafia } from "@/images/Mainpage/Natural/natural";
 import { NaturalCenter } from "./NaturalCenter/NaturalCenter";
 import { NaturalLink } from "./NaturalLink/NaturalLink";
-const NaturalTop = () => {
+
+const NaturalContent = () => {
     return (
         <div className="relative">
           <Title className="text-[32px] mb-10 mx-auto lg:text-[70px] lg:mb-[65px]">
@@ -37,4 +38,4 @@ const NaturalTop = () => {
       </div>
     )
 }
-export {NaturalTop}
+export {NaturalContent}

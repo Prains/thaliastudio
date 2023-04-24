@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { materailRight, materailLeft  } from "@/images/Mainpage/Natural/natural";
-import { NaturalTop } from "./NaturalTop/NaturalTop";
+import { NaturalContent } from "./NaturalContent/NaturalContent";
 
 const Natural = () => {
   return (
     <section className="w-[87%] text-center mx-auto lg:w-[69%]">  
-      <NaturalTop/>
+      <NaturalContent/>
       <Image
         src={materailLeft}
         alt="Верёвочка на фоне слева"

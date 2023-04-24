@@ -1,6 +1,7 @@
 import { Paragraph, Anchor } from "@/components/ui/ui";
 import Image from "next/image";
 import { arrow } from "@/images/Mainpage/Natural/natural";
+
 const NaturalLink = () => {
     return (
         <Anchor 

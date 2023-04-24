@@ -15,7 +15,7 @@ const Soul = () => {
           Thalia Studio - это изделия из натуральных материалов таких, как джут и
           рафия. Это красивые сумочки, созданные с душой и любовью к своему делу.
         </Paragraph>
-        <article className="grid grid-row-3 justify-items-center">
+        <article className="flex flex-col mx-auto items-center justify-items-center lg:h-[845px]">
           <div className="w-[220px] lg:flex lg:items-center lg:gap-x-[100px] lg:w-[590px] lg:relative lg:right-[-180px]">
             <Image 
               className="mb-[25px]" 
@@ -66,7 +66,7 @@ const Soul = () => {
       <Image
         src={soulRopeRight}
         alt="Верёвочка на фоне справа"
-        className="hidden absolute top-[65%] right-0 lg:block"
+        className="hidden absolute top-[65%] right-0 xl:block"
       />
     </section>
   );

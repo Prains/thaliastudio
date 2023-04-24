@@ -6,12 +6,12 @@ const Natural = () => {
   return (
     <section className="w-[87%] text-center mx-auto lg:w-[69%]">  
       <div className="relative">
-        <Title className="text-[32px] mb-10 mx-auto lg:text-[70px] lg:mb-[185px]">
+        <Title className="text-[32px] mb-10 mx-auto lg:text-[70px] lg:mb-[65px]">
           Натуральные материалы
         </Title>
-        <article className="grid grid-row-3 justify-items-center lg:w-[69%] lg:flex lg:gap-[320px]">
-          <div>
-            <div className="w-[220px] lg:w-[280px]">
+        <article className="grid grid-row-3 justify-items-center gap-x-[200px] mx-auto lg:grid-cols-3 lg:w-[69%]">
+          <div className="lg:mr-[60px]">
+            <div className="w-[220px] lg:w-[280px] lg:mt-[125px]">
               <Image 
                 className="mb-[15px] lg:mb-[30px]" 
                 src={jute} 
@@ -31,20 +31,19 @@ const Natural = () => {
               />
             </Anchor>
           </div>
-          {/* <div className="hidden absolute top-[0px] lg:block">
+          <div className="hidden lg:block lg:h-[610px] lg:w-[205px]">
             <Image
               src={materailTop}
               alt="Шматочек веревки"
-              className="hidden absolute top-[270px] right-[370px] lg:block"
+              className="mb-[60px]"
             />
             <Image
               src={materailBottom}
               alt="Разноцветные нитки"
-              className="hidden absolute top-[270px] right-[370px] lg:block"
             />
-          </div> */}
-          <div>
-            <div className="w-[220px] lg:w-[280px]">
+          </div>
+          <div className="lg:ml-[60px]">
+            <div className="w-[220px] lg:w-[280px] lg:mt-[125px]">
               <Image 
                 className="mb-[15px] lg:mb-[30px]" 
                 src={rafia} 
@@ -69,12 +68,12 @@ const Natural = () => {
       <Image
         src={materailLeft}
         alt="Верёвочка на фоне слева"
-        className="hidden absolute top-[420%] left-0 lg:block"
+        className="hidden absolute top-[360%] left-0 xl:block"
       />
       <Image
         src={materailRight}
         alt="Верёвочка на фоне справа"
-        className="hidden absolute top-[380%] right-0 lg:block"
+        className="hidden absolute top-[325%] right-0 xl:block"
       />
     </section>
   );

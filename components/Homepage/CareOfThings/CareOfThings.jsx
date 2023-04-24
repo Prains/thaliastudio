@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Button, Paragraph, Title } from "@/components/ui/ui";
 import ThingsFromJute from "@/components/Homepage/CareOfThings/ThingsFromJute/ThingsFromJute";
 import ThingsFromRaffia from "@/components/Homepage/CareOfThings/ThingsFromRaffia/ThingsFromRaffia";
-
 import { jute, raffia } from "@/images/Mainpage/CareOfThings/careOfThings";
 import { arrow } from "@/images/Mainpage/Natural/natural";
 

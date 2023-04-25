@@ -1,5 +1,5 @@
 const Novelties = () => {
-    return (  );
+    return ( <section></section> );
 }
  
 export default Novelties;

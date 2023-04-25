@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function CatalogueHomeBottom({ products }) {
   return (
     <div className="flex flex-col items-center w-full md:flex-row-reverse md:justify-between lg:mt-[30px]">
-      <div className="relative w-full mb-[18%] md:w-[50%]">
+      <div className="relative w-full mb-[18%] md:w-[50%] md:mb-0">
         <article className="flex flex-col items-center w-[40%] max-w-[240px] md:max-w-[170px]">
           <Image
             src={products[0].img}
@@ -39,7 +39,7 @@ export default function CatalogueHomeBottom({ products }) {
       </div>
       <Paragraph
         defaultSize
-        className="text-center mb-[30px] md:max-w-[280px] md:text-left md:pr-[100px] md:mb-auto md:pt-[10%] md:w-[50%] lg:pr-0"
+        className="text-center mb-[30px] md:max-w-[280px] md:text-left md:mb-auto md:pt-[10%] lg:pr-0"
       >
         Каждое изделие содержит в себе только лучшие натуральные материалы и
         частичку души.

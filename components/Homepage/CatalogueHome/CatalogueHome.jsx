@@ -38,7 +38,7 @@ export default function CatalogueHome() {
   return (
     <section className="relative w-full flex flex-col items-center">
       <div className="flex flex-col items-center w-[87%] xl:w-[69%]">
-        <Title defaultSize className="mb-[40px]">
+        <Title className="text-[32px] mb-10 mx-auto lg:text-[70px] lg:mb-[65px]">
           Каталог
         </Title>
         <CatalogueHomeTop products={products.slice(0, 2)} />

@@ -6,12 +6,12 @@ export default function CatalogueHomeTop({ products }) {
     <div className="flex flex-col items-center w-full md:flex-row-reverse md:mt-[40px] md:justify-between">
       <Paragraph
         defaultSize
-        className="text-center mb-[30px] md:text-right max-w-[70%] md:max-w-[280px] md:w-[50%]"
+        className="text-center mb-[30px] md:text-right  md:max-w-[280px] md:w-[50%]"
       >
         Изделия ручной работы дополняют повседневные образы и делают их
         уникальным и неповторимым.
       </Paragraph>
-      <div className="relative w-full mb-[18%] md:mb-0 md:w-[50%]">
+      <div className="relative w-full mb-[24%] md:mb-0 md:w-[50%]">
         <article className="flex flex-col items-center w-[40%] max-w-[240px] md:mt-[10%] md:max-w-[170px]">
           <Image
             src={products[0].img}

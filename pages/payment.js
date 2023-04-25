@@ -1,11 +1,7 @@
-import { Title } from "@/components/ui/ui";
+import PaymentPage from "@/components/PaymentPage/Payment";
 
 const Payment = () => {
-  return (
-    <section>
-      <Title defaultSize>Обмен и возврат</Title>
-    </section>
-  );
+  return <PaymentPage />;
 };
 
 export default Payment;

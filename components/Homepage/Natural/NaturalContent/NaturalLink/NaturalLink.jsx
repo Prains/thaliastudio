@@ -2,19 +2,27 @@ import { Paragraph, Anchor } from "@/components/ui/ui";
 import Image from "next/image";
 import { arrow } from "@/images/Mainpage/Natural/natural";
 
-const NaturalLink = () => {
+const NaturalLink = ({onClick, changeTextLink}) => {
+    const classForImage = changeTextLink ? "scale-x-[-1]" : null
+
     return (
         <Anchor 
-        className="mb-[30px] mx-auto"
-        href={"/"} 
-        link={false}
+            className="mb-[30px] mx-auto"
+            href={"/"} 
+            link={false}
+            onClick={onClick}
         >
-            <Paragraph className="active:text-[#58FF92]">Узнать больше</Paragraph>
+            <Paragraph 
+                className="active:text-[#58FF92]"
+            >
+                {changeTextLink ? "Скрыть инфо" : "Узнать больше"}
+            </Paragraph>   
             <Image 
-            src={arrow} 
-            alt="Стрелка в ссылке"
+                className={classForImage}
+                src={arrow} 
+                alt="Стрелка в ссылке"
             />
-      </Anchor>
+        </Anchor>
     )
 }
 export {NaturalLink}

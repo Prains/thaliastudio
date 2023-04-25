@@ -1,4 +1,4 @@
-const Paragraph = ({ defaultSize, children, className }) => {
+const Paragraph = ({ defaultSize, children, className}) => {
   return (
     <p
       className={

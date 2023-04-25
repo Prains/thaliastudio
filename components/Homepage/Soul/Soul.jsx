@@ -5,15 +5,13 @@ import { SoulDescription } from "./SoulDescription/SoulDescription";
 
 const Soul = () => {
   return (
-    <section className="w-[87%] text-center lg:w-[69%]">
-      <div className="relative">
-        <SoulDescription/>
-        <SoulContent/>
-      </div>
+    <section className="relative w-[87%] text-center lg:w-[69%]">
+      <SoulDescription/>
+      <SoulContent/>
       <Image
         src={soulRopeRight}
         alt="Верёвочка на фоне справа"
-        className="hidden absolute top-[65%] right-0 xl:block"
+        className="hidden absolute top-[-28%] right-[-28%] xl:block"
       />
     </section>
   );

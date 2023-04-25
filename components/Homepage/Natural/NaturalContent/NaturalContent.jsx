@@ -7,7 +7,7 @@ import { NaturalLink } from "./NaturalLink/NaturalLink";
 const NaturalContent = () => {
     return (
         <div className="relative">
-          <Title className="text-[32px] mb-10 mx-auto lg:text-[70px] lg:mb-[65px]">
+          <Title className="max-w-[550px] text-[32px] mb-10 mx-auto lg:text-[70px] lg:mb-[65px]">
             Натуральные материалы
           </Title>
           <article className="grid grid-row-3 justify-items-center gap-x-[200px] mx-auto lg:grid-cols-3 lg:w-[69%]">

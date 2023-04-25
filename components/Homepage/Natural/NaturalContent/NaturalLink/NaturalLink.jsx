@@ -7,7 +7,7 @@ const NaturalLink = () => {
         <Anchor 
         className="mb-[30px] mx-auto"
         href={"/"} 
-        link
+        link={false}
         >
             <Paragraph className="active:text-[#58FF92]">Узнать больше</Paragraph>
             <Image 

@@ -5,7 +5,7 @@ const Noveltys = () => {
   return (
     <>
       <Head>
-        <title>Thalia Studio - Главная Страница</title>
+        <title>Thalia Studio - Новинки</title>
       </Head>
       <NoveltysPage />
     </>

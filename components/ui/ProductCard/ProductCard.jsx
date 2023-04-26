@@ -1,8 +1,7 @@
-import React from "react";
 import Image from "next/image";
-import { CatalogCard } from "@/components/ui/ProductCard/CatalogCard/CatalogCard";
-import { FavoriteCard } from "@/components/ui/ProductCard/FavoriteCard/FavoriteCard";
-import { CartCard } from "@/components/ui/ProductCard/CartCard/CartCard";
+import { CatalogBottom } from "@/components/ui/ProductCard/CatalogCard/CatalogCard";
+import { FavoriteBottom } from "@/components/ui/ProductCard/FavoriteCard/FavoriteCard";
+import { CartBottom } from "@/components/ui/ProductCard/CartCard/CartCard";
 
 const ProductCard = ({ type, card }) => {
   return (
@@ -16,9 +15,9 @@ const ProductCard = ({ type, card }) => {
         <p className="font-text text-[14px] truncate leading-[160%] mb-[5px] text-center w-[130px] md:w-[170px] xl:w-[204px] md:text-[15px] xl:text-[16px]">
           {card.title}
         </p>
-        {type === "catalog" && <CatalogCard card={card} />}
-        {type === "favorite" && <FavoriteCard card={card} />}
-        {type === "cart" && <CartCard card={card} />}
+        {type === "catalog" && <CatalogBottom card={card} />}
+        {type === "favorite" && <FavoriteBottom card={card} />}
+        {type === "cart" && <CartBottom card={card} />}
       </div>
     </article>
   );

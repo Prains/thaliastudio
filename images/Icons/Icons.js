@@ -11,6 +11,8 @@ import arrowright from "./bi_arrow-right.svg";
 import trashSvg from "./trashSvg.svg";
 import minusSvg from "./minusSvg.svg";
 import plusSvg from "./plusSvg.svg";
+import arrowdown from "./Polygon (2).svg";
+import searchIcon from "./icon_search.svg";
 
 export {
   basket,
@@ -26,4 +28,6 @@ export {
   trashSvg,
   minusSvg,
   plusSvg,
+  arrowdown,
+  searchIcon,
 };

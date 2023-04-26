@@ -8,7 +8,7 @@ import {
   vk as vkImg,
   instagram as instagramImg,
   whatsapp as whatsappImg,
-} from "@/images/Icons/icons.js";
+} from "@/images/Icons/Icons.js";
 
 export const ContactsPage = () => {
   const socials = [

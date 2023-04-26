@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { telegram, vk, instagram, whatsapp } from "@/images/icons/icons";
+import { telegram, vk, instagram, whatsapp } from "@/images/Icons/Icons";
 import SocialLink from "../../Header/SocialLink/SocialLink";
 import { socialLinks } from "@/utils/url";
 

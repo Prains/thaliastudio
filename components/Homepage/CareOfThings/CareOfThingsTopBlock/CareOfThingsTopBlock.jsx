@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Anchor, Paragraph } from "@/components/ui/ui";
-import CareOfThingsPopup from "@/components/HomePage/CareOfThings/CareOfThingsPopup/CareOfThingsPopup";
+import CareOfThingsPopup from "../CareOfThingsPopup/CareOfThingsPopup";
 
 import { arrow } from "@/images/Mainpage/Natural/natural";
 

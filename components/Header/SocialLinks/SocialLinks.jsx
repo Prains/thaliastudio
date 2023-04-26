@@ -1,6 +1,6 @@
 import SocialLink from "../SocialLink/SocialLink";
 import Image from "next/image";
-import { basket, heart, burger } from "@/images/icons/icons";
+import { basket, heart, burger } from "@/images/Icons/Icons";
 import Burger from "../Burger/Burger";
 import { url } from "@/utils/url";
 

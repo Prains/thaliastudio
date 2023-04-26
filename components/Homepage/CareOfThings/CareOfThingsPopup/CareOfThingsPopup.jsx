@@ -1,4 +1,3 @@
-import React from "react";
 import { Anchor, Paragraph, Popup } from "@/components/ui/ui";
 import Image from "next/image";
 import { arrow } from "@/images/Mainpage/Natural/natural";

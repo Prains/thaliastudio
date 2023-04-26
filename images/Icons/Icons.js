@@ -8,6 +8,9 @@ import vk from "./image_vk.svg";
 import instagram from "./image_instagram.svg";
 import whatsapp from "./image_whatsapp.svg";
 import arrowright from "./bi_arrow-right.svg";
+import trashSvg from "./trashSvg.svg";
+import minusSvg from "./minusSvg.svg";
+import plusSvg from "./plusSvg.svg";
 
 export {
   basket,
@@ -20,4 +23,7 @@ export {
   instagram,
   whatsapp,
   arrowright,
+  trashSvg,
+  minusSvg,
+  plusSvg,
 };

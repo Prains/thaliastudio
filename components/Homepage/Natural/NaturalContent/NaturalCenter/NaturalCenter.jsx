@@ -5,13 +5,13 @@ const NaturalCenter = () => {
     return (
         <div className="hidden lg:block lg:h-[610px] lg:w-[205px]">
             <Image
-            src={materailTop}
-            alt="Шматочек веревки"
-            className="mb-[60px]"
+                src={materailTop}
+                alt="Шматочек веревки"
+                className="mb-[60px]"
             />
             <Image
-            src={materailBottom}
-            alt="Разноцветные нитки"
+                src={materailBottom}
+                alt="Разноцветные нитки"
             />
         </div>
   )

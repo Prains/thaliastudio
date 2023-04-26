@@ -6,8 +6,8 @@ import { SoulDescription } from "./SoulDescription/SoulDescription";
 const Soul = () => {
   return (
     <section className="relative w-[87%] text-center lg:w-[69%]">
-      <SoulDescription/>
-      <SoulContent/>
+      <SoulDescription />
+      <SoulContent />
       <Image
         src={soulRopeRight}
         alt="Верёвочка на фоне справа"

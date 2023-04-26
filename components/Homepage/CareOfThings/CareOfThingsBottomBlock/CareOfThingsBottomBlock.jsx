@@ -14,10 +14,12 @@ export default function CareOfThingsBottomBlock({ img, title, cares }) {
           <Paragraph className="font-title text-textDefault font-semibold max-w-[135px] mb-[15px] text-[15px] leading-[110%] text-center lg:min-w-[200px] lg:text-[20px]">
             {title}
           </Paragraph>
-          <Anchor link={false} onClick={() => setIsOpenModal(true)}>
-            <Paragraph className="text-[13px] leading-[160%]">
-              Узнать больше
-            </Paragraph>
+          <Anchor
+            link={false}
+            onClick={() => setIsOpenModal(true)}
+            className="leading-[160%]"
+          >
+            Узнать больше
             <Image src={arrow} className="mr-0" alt="визуальная стрелка" />
           </Anchor>
         </div>

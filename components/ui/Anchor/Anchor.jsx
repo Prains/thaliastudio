@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NotALink = ({ children, className, onClick }) => {
   return (
-    <div
+    <p
       className={
         `flex items-center justify-center gap-[16px] text-textDefault border-b-2 border-black border-dashed cursor-pointer max-w-max text-sm font-text hover:border-solid hover:font-semibold active:text-textActive active:border-dashed` +
         ` ${className}`
@@ -10,7 +10,7 @@ const NotALink = ({ children, className, onClick }) => {
       onClick={onClick}
     >
       {children}
-    </div>
+    </p>
   );
 };
 

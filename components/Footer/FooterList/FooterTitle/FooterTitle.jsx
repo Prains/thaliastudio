@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const FooterTitle = ({ children }) => {
+const FooterTitle = ({ children, href }) => {
   return (
-    <Link href={"/"}>
+    <Link href={href}>
       <li className="font-text text-[#282828] font-semibold mb-[10px] text-sm">{children}</li>
     </Link>
   );

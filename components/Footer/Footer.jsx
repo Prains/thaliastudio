@@ -2,6 +2,7 @@ import FooterLogo from "./FooterLogo/FooterLogo";
 import FooterList from "./FooterList/FooterList";
 import Link from "next/link";
 import SocialList from "./SocialList/SocialList";
+import { socialLinks, tel } from "@/utils/url";
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
         <FooterLogo />
         <FooterList />
         <div className="flex items-center justify-center flex-col gap-[15px] mt-10 mb-8 lg:items-end">
-          <Link href={"tel:+79161421453"}>7 916 142 14 53</Link>
+          <Link href={socialLinks}>{tel}</Link>
           <SocialList />
-        </div> 
+        </div>
       </div>
     </footer>
   );

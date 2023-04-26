@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const SocialLink = ({ children, href, className }) => {
+const SocialLink = ({ children, href, className, onClick }) => {
   return (
     <Link
       className={
@@ -8,6 +8,7 @@ const SocialLink = ({ children, href, className }) => {
         ` ${className}`
       }
       href={href}
+      onClick={onClick}
     >
       {children}
     </Link>

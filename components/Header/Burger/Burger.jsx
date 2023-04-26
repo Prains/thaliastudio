@@ -11,19 +11,23 @@ import {
   whatsapp,
 } from "@/images/Icons/Icons";
 import Link from "next/link";
+import { url, socialLinks, tel } from "@/utils/url";
+import BurgerLink from "./BurgerLink/BurgerLink";
 
 const Burger = ({ setBurgerShown }) => {
   return (
-    <section className="fixed top-0 right-0 left-0 w-full h-full bg-[#D8F8E3] flex items-center justify-between flex-col">
+    <section className="fixed top-0 right-0 left-0 w-full h-full bg-[#D8F8E3] flex items-center justify-between flex-col z-50">
       <div className="flex items-center justify-between w-[87%] mt-5">
-        <Image src={burgerLogo} alt="лого талиястудия" />
+        <BurgerLink shown={setBurgerShown} href={url.index}>
+          <Image src={burgerLogo} alt="лого талиястудия" />
+        </BurgerLink>
         <nav className="flex items-center justify-center gap-5">
-          <SocialLink href="/favourites">
+          <BurgerLink shown={setBurgerShown} href={url.favourites}>
             <Image src={heart} alt="черное сердечко" />
-          </SocialLink>
-          <SocialLink href="/order">
+          </BurgerLink>
+          <BurgerLink shown={setBurgerShown} href={url.order}>
             <Image src={basket} alt="черная корзинка" />
-          </SocialLink>
+          </BurgerLink>
           <Image
             src={close}
             alt="черный крестик"
@@ -34,24 +38,32 @@ const Burger = ({ setBurgerShown }) => {
         </nav>
       </div>
       <div className="flex items-center justify-center gap-5 flex-col">
-        <SocialLink href={"/catalog"}>Каталог</SocialLink>
-        <SocialLink href={"/noveties"}>Новинки</SocialLink>
-        <SocialLink href={"/delivery"}>Оплата и доставка</SocialLink>
-        <SocialLink href={"/contacts"}>Контакты</SocialLink>
+        <BurgerLink shown={setBurgerShown} href={url.catalog}>
+          Каталог
+        </BurgerLink>
+        <BurgerLink shown={setBurgerShown} href={url.novelties}>
+          Новинки
+        </BurgerLink>
+        <BurgerLink shown={setBurgerShown} href={url.payment}>
+          Оплата и доставка
+        </BurgerLink>
+        <BurgerLink shown={setBurgerShown} href={url.contacts}>
+          Контакты
+        </BurgerLink>
       </div>
       <div className="flex items-center justify-center flex-col gap-4 mb-7">
-        <Link href="tel:+7 916 142 14 53">7 916 142 14 53</Link>
+        <Link href={socialLinks.phone}>{tel}</Link>
         <div className="flex items-center justify-center gap-5">
-          <SocialLink href={"/"}>
+          <SocialLink href={socialLinks.tg}>
             <Image src={telegram} alt="иконка социальной сети телеграмм" />
           </SocialLink>
-          <SocialLink href={"/"}>
+          <SocialLink href={socialLinks.vk}>
             <Image src={vk} alt="иконка социальной сети вконтакте" />
           </SocialLink>
-          <SocialLink href={"/"}>
+          <SocialLink href={socialLinks.ig}>
             <Image src={instagram} alt="иконка социальной сети инстаграмм" />
           </SocialLink>
-          <SocialLink href={"/"}>
+          <SocialLink href={socialLinks.wa}>
             <Image src={whatsapp} alt="иконка социальной сети ватсапп" />
           </SocialLink>
         </div>

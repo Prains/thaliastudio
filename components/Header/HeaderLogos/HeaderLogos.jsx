@@ -1,15 +1,21 @@
 import Image from "next/image";
 import { logoDesktop, logoMobile } from "@/images/Logo/Logo";
+import Link from "next/link";
+import { url } from "@/utils/url";
 
 const HeaderLogos = () => {
   return (
     <>
-      <Image src={logoMobile} alt="Лого thaliastudio" className="md:hidden" />
-      <Image
-        src={logoDesktop}
-        alt="Лого thaliastudio"
-        className="hidden md:block"
-      />
+      <Link href={url.index}>
+        <Image src={logoMobile} alt="Лого thaliastudio" className="md:hidden" />
+      </Link>
+      <Link href={url.index}>
+        <Image
+          src={logoDesktop}
+          alt="Лого thaliastudio"
+          className="hidden md:block"
+        />
+      </Link>
     </>
   );
 };

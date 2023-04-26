@@ -1,39 +1,39 @@
-import React from "react";
 import { Title, Paragraph } from "@/components/ui/ui";
 import ContactLink from "@/components/ContactsPage/ContactLink/ContactLink";
 import { ContactPhoneBlock } from "./ContactPhoneBlock/ContactPhoneBlock";
+import { socialLinks } from "@/utils/url";
 
 import {
   telegram as telegramImg,
   vk as vkImg,
   instagram as instagramImg,
   whatsapp as whatsappImg,
-} from "@/images/icons/icons";
+} from "@/images/Icons/icons.js";
 
 export const ContactsPage = () => {
   const socials = [
     {
       social: "telegram",
       img: telegramImg,
-      link: "https://t.me/thalia_crochetstudio",
+      link: socialLinks.tg,
       title: "@thalia_crochetstudio",
     },
     {
       social: "vk",
       img: vkImg,
-      link: "/",
+      link: socialLinks.vk,
       title: "Thalia Studio",
     },
     {
       social: "instagram",
       img: instagramImg,
-      link: "/",
+      link: socialLinks.ig,
       title: "@thalia_crochetstudio",
     },
     {
       social: "whatsapp",
       img: whatsappImg,
-      link: "/",
+      link: socialLinks.wa,
       title: "Natalia Leskova",
     },
   ];

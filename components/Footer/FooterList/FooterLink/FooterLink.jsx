@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const FooterLink = ({ children }) => {
+const FooterLink = ({ children, href }) => {
   return (
-    <Link href={"/"}>
+    <Link href={href}>
       <li className="font-text text-[#282828] text-sm">{children}</li>
     </Link>
   );

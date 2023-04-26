@@ -1,11 +1,8 @@
 import Image from "next/image";
 import { jute, textBackground } from "@/images/Mainpage/Natural/natural";
 import { Paragraph } from "@/components/ui/ui";
-import { useState } from "react";
 
 const NaturalJute = (props) => {
-    // const [linkJute, setIsLinkJute] = useState(false);
-    
 
     return (
         <div className="w-[220px] lg:w-[280px] lg:mt-[125px]">

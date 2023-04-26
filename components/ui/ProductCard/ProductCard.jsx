@@ -18,7 +18,7 @@ const ProductCard = ({ type, card }) => {
         alt={`Изображение ${card.title}`}
       />
       <div>
-        <p className="font-text text-[14px] leading-[160%] mb-[5px] text-center md:text-[15px] xl:text-[16px]">
+        <p className="font-text text-[14px] truncate leading-[160%] mb-[5px] text-center w-[130px] md:w-[170px] xl:w-[204px] md:text-[15px] xl:text-[16px]">
           {card.title}
         </p>
         {type === "catalog" && <CatalogCard card={card} />}

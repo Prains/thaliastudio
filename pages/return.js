@@ -1,13 +1,19 @@
 import PaymentPage from "@/components/PaymentPage/Payment";
 import { returnTop, returnBottom } from "@/utils/utils";
+import Head from "next/head";
 
 const Return = () => {
   return (
-    <PaymentPage
-      title="Обмен и возврат"
-      top={returnTop}
-      bottom={returnBottom}
-    />
+    <>
+      <Head>
+        <title>Thalia Studio - Обмен и возврат</title>
+      </Head>
+      <PaymentPage
+        title="Обмен и возврат"
+        top={returnTop}
+        bottom={returnBottom}
+      />
+    </>
   );
 };
 

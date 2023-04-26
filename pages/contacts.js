@@ -1,7 +1,15 @@
 import { ContactsPage } from "@/components/ContactsPage/ContactsPage";
+import Head from "next/head";
 
 const Contacts = () => {
-  return <ContactsPage />;
+  return (
+    <>
+      <Head>
+        <title>Thalia Studio - Контакты</title>
+      </Head>
+      <ContactsPage />
+    </>
+  );
 };
 
 export default Contacts;

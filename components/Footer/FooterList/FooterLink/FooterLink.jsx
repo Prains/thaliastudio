@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const FooterLink = ({ children, href }) => {
   return (
-    <Link href={href}>
-      <li className="font-text text-[#282828] text-sm">{children}</li>
-    </Link>
+    <li className="font-text text-[#282828] text-sm">
+      <Link href={href}>{children} </Link>
+    </li>
   );
 };
 

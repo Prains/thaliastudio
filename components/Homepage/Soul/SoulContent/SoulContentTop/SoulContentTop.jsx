@@ -4,7 +4,7 @@ import { soulJute } from "@/images/Mainpage/Soul/soul";
 
 const SoulContentTop = () => {
     return (
-        <div className="w-[220px] lg:flex lg:items-center lg:gap-x-[100px] lg:w-[590px] lg:relative lg:right-[-180px]">
+        <article className="w-[220px] lg:flex lg:items-center lg:gap-x-[100px] lg:w-[590px] lg:relative lg:right-[-180px]">
             <Image 
             className="mb-[25px]" 
             src={soulJute} 
@@ -21,7 +21,7 @@ const SoulContentTop = () => {
                     Натуральное волокно из Юго-Восточной Азии
                 </Paragraph>
             </div>
-        </div>
+        </article>
     )
 }
 export {SoulContentTop}

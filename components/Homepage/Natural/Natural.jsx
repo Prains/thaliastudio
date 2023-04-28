@@ -4,17 +4,17 @@ import { NaturalContent } from "./NaturalContent/NaturalContent";
 
 const Natural = () => {
   return (
-    <section className="relative w-[87%] text-center mx-auto lg:w-[69%]">  
+    <section className="relative w-full mx-auto">  
       <NaturalContent/>
       <Image
         src={materailLeft}
         alt="Верёвочка на фоне слева"
-        className="hidden absolute top-[-25%] left-[-23%] xl:block"
+        className="hidden absolute top-[-25%] left-0 xl:block"
       />
       <Image
         src={materailRight}
         alt="Верёвочка на фоне справа"
-        className="hidden absolute top-[-65%] right-[-28%] xl:block"
+        className="hidden absolute top-[-65%] right-0 xl:block"
       />
     </section>
   );

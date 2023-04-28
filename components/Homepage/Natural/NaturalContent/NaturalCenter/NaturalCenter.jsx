@@ -3,7 +3,7 @@ import { materailTop, materailBottom } from "@/images/Mainpage/Natural/natural";
 
 const NaturalCenter = () => {
     return (
-        <div className="hidden lg:block lg:h-[610px] lg:w-[205px]">
+        <article className="hidden lg:block lg:h-[610px] lg:w-[205px]">
             <Image
                 src={materailTop}
                 alt="Шматочек веревки"
@@ -13,7 +13,7 @@ const NaturalCenter = () => {
                 src={materailBottom}
                 alt="Разноцветные нитки"
             />
-        </div>
+        </article>
   )
 }
 export {NaturalCenter}

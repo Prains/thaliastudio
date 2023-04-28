@@ -4,7 +4,7 @@ import { soulRafia } from "@/images/Mainpage/Soul/soul";
 
 const SoulContentBottom = () => {
   return (
-    <div className="lg:flex lg:items-center lg:relative lg:top-[-520px] lg:right-[-385px]">
+    <article className="lg:flex lg:items-center lg:relative lg:top-[-520px] lg:right-[-385px]">
       <Image
         className="mb-[25px] w-[220px] mx-auto lg:w-[300px]"
         src={soulRafia}
@@ -16,8 +16,7 @@ const SoulContentBottom = () => {
         </h4>
         <Paragraph defaultSize>Натуральное волокно из листьев пальмы</Paragraph>
       </div>
-      {/* горизонтальный скролл здесь*/}
-    </div>
+    </article>
   );
 };
 export { SoulContentBottom };

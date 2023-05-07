@@ -2,7 +2,6 @@ import { arrowdown, searchIcon } from "@/images/Icons/Icons";
 import Image from "next/image";
 import { Paragraph } from "@/components/ui/ui";
 import ButtonList from "./ButtonList/ButtonList";
-import Select from "react-select";
 import { useState } from "react";
 import FilterDropdown from "./FilterDropdown/FilterDropdown";
 import MobileFilter from "./MobileFilter/MobileFilter";
